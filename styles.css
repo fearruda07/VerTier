@@ -1,5 +1,5 @@
 :root{
-    --pink:#2daa07;
+    --pink:#02178d;
 }
 #celular{
    width: 350px;
@@ -20,6 +20,7 @@
     text-decoration: none;
     text-transform: capitalize;
     transition: .2s linear;
+   
 }
 
 html{
@@ -39,19 +40,40 @@ section{
     color:#333;
     padding:1rem;
     margin:2rem 0;
-    background:rgba(255, 51, 153,.05);
+    background:rgba(61, 8, 34, 0.05);
+    
+}
+#VITALE{
+    color: #fefefe;
+    font-size: 80px;
+    margin-right: 80%;
+    text-shadow:8px 5px 10px#089d7f;
 }
 
 .heading span{
     color:var(--pink);
 }
 
+#logo{
+    color: #343434;
+    box-shadow: 10px 4px 8px#373737 ;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+#mario{
+    width: 280px;
+    margin-left: 780px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
 .btn{
     display: inline-block;
     margin-top: -150px;
     border-radius: 5rem;
-    background:#333;
-    color:#fff;
+    background:#ffffff;
+    color:#000000;
     padding:.9rem 3.5rem;
     cursor: pointer;
     font-size: 25px;
@@ -64,7 +86,7 @@ section{
 header{
     position: fixed;
     top:0; left:0; right:0;
-    background:#fff;
+    background:#01c194;
     padding:2rem 9%;
     display: flex;
     align-items: center;
@@ -73,20 +95,18 @@ header{
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 }
 
-header .logo{
-    font-size: 3rem;
-    color:#333;
-    font-weight: bolder;
-}
+
 
 header .logo span{
     color:var(--pink);
 }
 
 header .navbar a{
-    font-size: 2rem;
+    font-size: 20px;
     padding:0 1.5rem;
-    color:#666;
+    color:#ebebeb;
+    font-weight: bold;
+    text-shadow: 6px 2px 10px#000000;
 }
 
 header .navbar a:hover{
@@ -99,10 +119,16 @@ header .icons a{
     margin-left: 1.5rem;
 }
 #lema{
-    color: rgb(255, 255, 255);
+    color: #0034a5;
    padding-bottom: 50%;
+   text-shadow:6px 5px 10px#ffffff;
+   font-weight: bold;
+   
 }
-
+.box a img{
+    width: 200px;
+    margin-left: 40%;
+}
 header .icons a:hover{
     color:var(--pink);
 }
@@ -125,7 +151,7 @@ header .fa-bars{
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background-image: url(fundo.png);
+    background-image: url(/image/capa\ vitale.gif);
     background-size: cover;
     background-position: center;
 }
@@ -209,20 +235,34 @@ header .fa-bars{
 .icons-container{
     background:#eee;
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     gap:1.5rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
+    
 }
 
+
+
+.letras-meditação{
+
+    margin-left: 50%;
+}
 .icons-container .icons{
     background:#fff;
     border:.1rem solid rgba(0,0,0,.1);
     padding:2rem;
-    display: flex;
+    background-image:url(/image/meditation-zen-chan-yoga-statue-rest-1434851-pxhere.com.jpg) ;
+    display: inline-block;
     align-items: center;
-    flex:1 1 25rem;
+  
+    margin-left: 0%;
+    background-size: cover;
+    background-position: center;
 }
+
+
 
 .icons-container .icons img{
     height:5rem;
@@ -326,6 +366,7 @@ header .fa-bars{
     padding-top: 1rem;
 }
 
+
 .products .box-container .box .content .price span{
     font-size: 1.5rem;
     color:#999;
@@ -409,10 +450,14 @@ header .fa-bars{
 
 .contact .row .image{
     flex:1 1 40rem;
+    margin-left: 70px;
 }
 
 .contact .row .image img{
-    width: 100%;
+    width: 250px;
+    margin-left: 85px;
+    padding-bottom: 30px;
+    
 }
 
 .contact .row form .box{
@@ -502,31 +547,52 @@ header .fa-bars{
         font-size: 4rem;
         color:#333;
         padding:1rem;
-        margin:2rem 0;
+        margin-left: 40px;
         background:rgba(255, 51, 153,.05);
+        align-items: center;
+
+    }
+    #mario{
+        width: 100px;
+        margin-left: 100px;     
+        margin-top: 5px;
+        border-radius: 20px;
+       
+    }
+
+    #corrida{
+        margin-left: -5%;
     }
 
     .home{
-        display: flex;
+        display: inline-block;
         align-items: center;
-        background-image: url(fundo\ \(6\).png);
+        background-image: url(/image/Design\ sem\ nome\ \(9\).gif);
         background-size: cover;
         background-position: center;
-        align-items: center;
+      
+       
+     
     }
     #lema{
         color: rgb(255, 255, 255);
        padding-bottom: 50%;
-       font-size: 17px;
-       margin-right: 90PX;
+       font-size: 30px;
+       margin-right: 10PX;
+       text-shadow: 8px 5px 10px#000000;
     }
-    
 
+    #VITALE{
+        color: #007e6b;
+        text-shadow: 2px 5px 10px#000000;
+        padding-top: 50%;
+    }
+   
     #celular{
-        width: 200px;
+        width: 100px;
         background-size: cover;
         background-position: center;
-        margin-left: 90%;
+        margin-left: 190%;
         margin-top: -100px;
         border: 3px #459E2C solid;
         box-shadow: 2px 2px 20px #333;
@@ -544,15 +610,37 @@ header .fa-bars{
         transition: .2s linear;
         text-align: center;
         align-items: center;
+        margin-left: 2%;
+        
+    }
+
+    #foto-grupo{
+        margin-left: -7%;
+    }
+
+    .box a img{
+        width: 200px;
+        margin-left: -65%;
+        background-color: #eee;
     }
 
 
-    header .navbar{
+    header .navbar a{
         position:absolute;
         top:100%; left:0; right:0;
-        background:#eee;
+        background:#000000;
         border-top: .1rem solid rgba(0,0,0,.1);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        align-items: center;
+        margin-left: 20%;
+    }
+   
+    
+    
+
+    #lampada{
+        margin-left: -125px;
+        background-color: #01c194;
     }
 
     .heading{
@@ -576,6 +664,7 @@ header .fa-bars{
         padding:.9rem 3.5rem;
         cursor: pointer;
         font-size: 19px;
+        margin-left: -2%;
     }
 
     header .navbar a{
@@ -592,7 +681,7 @@ header .fa-bars{
         scroll-padding-top: 6rem;
         overflow-x: hidden;
         text-align: center;
-       
+       margin-left: -10%;
     }
 
     .home .content h3{
@@ -602,6 +691,8 @@ header .fa-bars{
     .home .content span{
         font-size: 2.5rem;
     }
+
+   
     header{
         position: center;
         top:0; left:0; right:0;
@@ -612,6 +703,7 @@ header .fa-bars{
         justify-content: space-between;
         z-index: 1000;
         box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+        margin-left: -5%;
     }
 
     .icons-container .icons h3{
